@@ -6,9 +6,5 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/pacientes")
 public class PacienteController {
 
-    @PostMapping
-    public void cadastrar(@RequestBody String json) {
-        System.out.println("Hey");
-    }
 
 }
