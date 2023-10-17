@@ -8,7 +8,7 @@ public class PacienteController {
 
     @PostMapping
     public void cadastrar(@RequestBody String json) {
-        System.out.println(json);
+        System.out.println("Hey");
     }
 
 }
